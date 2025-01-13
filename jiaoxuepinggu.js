@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  自动处理教学评价表单提交及评估（自动连续处理版本）
-// @author       overflow0verture
+// @author       https://github.com/overflow0verture
 // @match        http://stu.j.tjcu.edu.cn/*
 // @grant        none
 // ==/UserScript==
