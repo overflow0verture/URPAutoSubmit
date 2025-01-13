@@ -6,6 +6,7 @@
 // @author       https://github.com/overflow0verture
 // @match        http://stu.j.tjcu.edu.cn/*
 // @grant        none
+// @license MIT
 // ==/UserScript==
 
 (function() {
@@ -148,15 +149,6 @@ async function submitEvaluationAndReturn() {
                 resolve();
             });
         });
-    }
-
-    // 提交评估并返回列表页
-    async function submitEvaluationAndReturn() {
-        addLog('提交评估并准备返回列表页...');
-        await new Promise(resolve => setTimeout(resolve, 5000));
-        // 设置自动继续标记
-        sessionStorage.setItem('autoContinue', 'true');
-        window.location.href = 'http://stu.j.tjcu.edu.cn/student/teachingEvaluation/evaluation/index';
     }
 
     // 创建提交表单的函数
